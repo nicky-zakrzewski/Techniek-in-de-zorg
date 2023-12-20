@@ -1,17 +1,21 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1703078835
-default_env.tres::Environment::7260000700706180805::1703078835::0::1::::<><>::
-hallway.tscn::PackedScene::4760369119364830032::1703078835::0::1::::<><>::uid://cqxepmjlvjoui::::res://assets_hallway/19_Hospital_Shadowless_48x48.png
-icon.png::CompressedTexture2D::6344796567792983904::1703000002::1703078088::1::::<><>::
-::res://addons/::1703078088
-::res://addons/godot-sqlite/::1703078088
-gdsqlite.gdextension::GDExtension::-1::1703078088::0::1::::<><>::
-godot-sqlite.gd::GDScript::-1::1703078088::0::1::::<>EditorPlugin<>::
-LICENSE.md::TextFile::-1::1703078088::0::1::::<><>::
-plugin.cfg::TextFile::-1::1703078088::0::1::::<><>::
-::res://addons/godot-sqlite/bin/::1703078188
-::res://addons/godot-sqlite/bin/libgdsqlite.macos.template_debug.framework/::1703078088
-::res://addons/godot-sqlite/bin/libgdsqlite.macos.template_release.framework/::1703078088
-::res://assets_hallway/::1703079103
-19_Hospital_48x48.png::CompressedTexture2D::1529236370751138643::1703000670::1703079111::1::::<><>::
-19_Hospital_Shadowless_48x48.png::CompressedTexture2D::5943613853529399200::1703000700::1703078340::1::::<><>::
+::res://::1703094464
+default_env.tres::Environment::7260000700706180805::1703094413::0::1::::<><>::
+hallway.tscn::PackedScene::4760369119364830032::1703094412::0::1::::<><>::uid://cqxepmjlvjoui::::res://assets_hallway/19_Hospital_Shadowless_48x48.png<>uid://v11kgls81qyd::::res://assets_hallway/19_Hospital_48x48.png<>res://Characters/player_nurse.gd
+icon.png::CompressedTexture2D::6344796567792983904::1703076003::1703076003::1::::<><>::
+::res://addons/::1703076002
+::res://addons/godot-sqlite/::1703076003
+gdsqlite.gdextension::GDExtension::-1::1703076003::0::1::::<><>::
+godot-sqlite.gd::GDScript::-1::1703076003::0::1::::<>EditorPlugin<>::
+LICENSE.md::TextFile::-1::1703076002::0::1::::<><>::
+plugin.cfg::TextFile::-1::1703076003::0::1::::<><>::
+::res://addons/godot-sqlite/bin/::1703076003
+::res://addons/godot-sqlite/bin/libgdsqlite.macos.template_debug.framework/::1703076003
+::res://addons/godot-sqlite/bin/libgdsqlite.macos.template_release.framework/::1703076003
+::res://assets_hallway/::1703087585
+19_Hospital_48x48.png::CompressedTexture2D::1529236370751138643::1703087585::1703087585::1::::<><>::
+19_Hospital_Shadowless_48x48.png::CompressedTexture2D::5943613853529399200::1703087585::1703087585::1::::<><>::
+::res://Characters/::1703094413
+nick_and_ellis_sprites_by_ritsucracker_d2x7k8o-removebg-preview (1).png::CompressedTexture2D::2391550330201571762::1703089771::1703089772::1::::<><>::
+player_nurse.gd::GDScript::-1::1703094327::0::1::::<>CharacterBody2D<>::
+player_nurse.tscn::PackedScene::7016840718445821021::1703094413::0::1::::<><>::res://Characters/player_nurse.gd<>uid://bacqqqd563dvm::::res://Characters/nick_and_ellis_sprites_by_ritsucracker_d2x7k8o-removebg-preview (1).png

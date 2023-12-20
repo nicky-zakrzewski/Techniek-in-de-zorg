@@ -1,2 +1,4 @@
 res://default_env.tres
 res://hallway.tscn
+res://Characters/player_nurse.gd
+res://Characters/player_nurse.tscn
