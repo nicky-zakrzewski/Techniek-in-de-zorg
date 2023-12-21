@@ -1,15 +1,11 @@
-[gd_scene load_steps=12 format=3 uid="uid://waaawk753nmq"]
+[gd_scene load_steps=13 format=3 uid="uid://waaawk753nmq"]
 
+[ext_resource type="Script" path="res://scripts/kamer.gd" id="1_d02t3"]
 [ext_resource type="Texture2D" uid="uid://bh686kgshnf5n" path="res://tilesets/19_Hospital_48x48.png" id="1_hh3ij"]
 [ext_resource type="Texture2D" uid="uid://dlv05bp6g51it" path="res://tilesets/Room_Builder_Floors_48x48.png" id="2_76ob4"]
 [ext_resource type="Texture2D" uid="uid://cbeoqdhracqnl" path="res://tilesets/Room_Builder_3d_walls_48x48.png" id="3_sa38q"]
 [ext_resource type="Texture2D" uid="uid://pn5f8l2rlv5w" path="res://tilesets/19_Hospital_Black_Shadow_48x48.png" id="4_fdm23"]
 [ext_resource type="PackedScene" uid="uid://c68aluyyxe6vh" path="res://scenes/player_nurse.tscn" id="5_bmx40"]
-
-[sub_resource type="GDScript" id="GDScript_h0ycf"]
-resource_name = "res://scripts/kamer.gd"
-script/source = "extends Node
-"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pjqbe"]
 texture = ExtResource("1_hh3ij")
@@ -47853,8 +47849,11 @@ sources/1 = SubResource("TileSetAtlasSource_1abdi")
 sources/2 = SubResource("TileSetAtlasSource_wihhs")
 sources/4 = SubResource("TileSetAtlasSource_45ued")
 
-[node name="Node" type="Node"]
-script = SubResource("GDScript_h0ycf")
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g0xf4"]
+size = Vector2(48.5, 18)
+
+[node name="Room1" type="Node"]
+script = ExtResource("1_d02t3")
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_lafsi")
@@ -47877,4 +47876,12 @@ layer_5/name = "alarm"
 layer_5/tile_data = PackedInt32Array(65538, 589824, 49, 458756, 589824, 50, 196615, 524288, 75, 458762, 65536, 37, 458760, 0, 37, 458753, 131072, 37, 393226, 65536, 20)
 
 [node name="PlayerNurse" parent="." instance=ExtResource("5_bmx40")]
-position = Vector2(151, 326)
+position = Vector2(144, 344)
+
+[node name="DoorToHallway" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorToHallway"]
+position = Vector2(143, 414)
+shape = SubResource("RectangleShape2D_g0xf4")
+
+[connection signal="body_entered" from="DoorToHallway" to="." method="_on_door_to_hallwat_body_entered"]
