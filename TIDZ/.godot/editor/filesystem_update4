@@ -1,4 +1,7 @@
 res://default_env.tres
-res://hallway.tscn
+res://scenes/hallway.tscn
+res://scenes/kamer.tscn
+res://scripts/hallway.gd
 res://Characters/player_nurse.gd
 res://Characters/player_nurse.tscn
+res://scenes/player_nurse.tscn
