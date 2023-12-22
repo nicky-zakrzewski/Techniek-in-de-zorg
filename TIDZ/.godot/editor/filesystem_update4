@@ -1,7 +1,5 @@
 res://default_env.tres
-res://scenes/kamer.tscn
 res://scenes/hallway.tscn
-res://scripts/hallway.gd
-res://scripts/kamer.gd
+res://scenes/kamer.tscn
+res://scenes/main_menu.tscn
 res://scenes/hallway2.tscn
-res://scripts/SceneManager.gd

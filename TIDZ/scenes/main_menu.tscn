@@ -1,0 +1,75 @@
+[gd_scene load_steps=12 format=3 uid="uid://dkwefay648mkm"]
+
+[ext_resource type="Script" path="res://scripts/main_menu.gd" id="1_4fbja"]
+[ext_resource type="Texture2D" uid="uid://efan8dc7womm" path="res://Textures/Menu Background.png" id="2_7puto"]
+[ext_resource type="FontFile" uid="uid://cns14dwwoyrau" path="res://fonts/PixelifySans-Regular.ttf" id="3_31fkg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ymd5x"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o3ro4"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vfdi0"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cxjgf"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_phi1h"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_75umg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_km1k4"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b0rhc"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4fbja")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1154.0
+offset_bottom = 649.0
+texture = ExtResource("2_7puto")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -231.5
+offset_top = -154.0
+offset_right = 233.5
+offset_bottom = 155.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Start" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_31fkg")
+theme_override_font_sizes/font_size = 48
+theme_override_styles/normal = SubResource("StyleBoxFlat_ymd5x")
+theme_override_styles/hover = SubResource("StyleBoxFlat_o3ro4")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vfdi0")
+theme_override_styles/focus = SubResource("StyleBoxFlat_cxjgf")
+text = "Start"
+
+[node name="Quit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_31fkg")
+theme_override_font_sizes/font_size = 48
+theme_override_styles/normal = SubResource("StyleBoxFlat_phi1h")
+theme_override_styles/hover = SubResource("StyleBoxFlat_75umg")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_km1k4")
+theme_override_styles/focus = SubResource("StyleBoxFlat_b0rhc")
+text = "Quit"
+
+[connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]
