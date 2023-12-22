@@ -1,39 +1,39 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1703234554
-default_env.tres::Environment::7260000700706180805::1703234436::0::1::::<><>::
+::res://::1703236407
+default_env.tres::Environment::7260000700706180805::1703236407::0::1::::<><>::
 icon.png::CompressedTexture2D::6344796567792983904::1703187101::1703187101::1::::<><>::
-::res://addons/::1703187135
-::res://addons/godot-sqlite/::1703187135
+::res://addons/::1703236072
+::res://addons/godot-sqlite/::1703236072
 gdsqlite.gdextension::GDExtension::-1::1703187135::0::1::::<><>::
 godot-sqlite.gd::GDScript::-1::1703187135::0::1::::<>EditorPlugin<>::
 LICENSE.md::TextFile::-1::1703187135::0::1::::<><>::
 plugin.cfg::TextFile::-1::1703187135::0::1::::<><>::
-::res://addons/godot-sqlite/bin/::1703234550
-::res://addons/godot-sqlite/bin/libgdsqlite.macos.template_debug.framework/::1703187137
-::res://addons/godot-sqlite/bin/libgdsqlite.macos.template_release.framework/::1703187137
-::res://audio/::1703187137
+::res://addons/godot-sqlite/bin/::1703236296
+::res://addons/godot-sqlite/bin/libgdsqlite.macos.template_debug.framework/::1703236072
+::res://addons/godot-sqlite/bin/libgdsqlite.macos.template_release.framework/::1703236072
+::res://audio/::1703236072
 my_audio.tres::AudioStream::8656339406883634241::1703187137::0::1::::<><>::
-::res://fonts/::1703233508
+::res://fonts/::1703236072
 PixelifySans-Regular.ttf::FontFile::5724085756663867704::1703233508::1703233508::1::::<><>::
-::res://scenes/::1703234436
-hallway2.tscn::PackedScene::4384361257698177125::1703234436::0::1::::<><>::res://scripts/kamer.gd<>uid://d151qvlbmhh66::::res://tilesets/19_Hospital_Shadowless_48x48.png
-hallway.tscn::PackedScene::3914590650685529378::1703234434::0::1::::<><>::res://scripts/hallway.gd<>uid://b3p213qwjtt6t::::res://scenes/hallway2.tscn<>uid://c68aluyyxe6vh::::res://scenes/player_nurse.tscn
-kamer.tscn::PackedScene::1544155732493599388::1703234435::0::1::::<><>::res://scripts/kamer.gd<>uid://bh686kgshnf5n::::res://tilesets/19_Hospital_48x48.png<>uid://dlv05bp6g51it::::res://tilesets/Room_Builder_Floors_48x48.png<>uid://cbeoqdhracqnl::::res://tilesets/Room_Builder_3d_walls_48x48.png<>uid://pn5f8l2rlv5w::::res://tilesets/19_Hospital_Black_Shadow_48x48.png<>uid://c68aluyyxe6vh::::res://scenes/player_nurse.tscn
-main_menu.tscn::PackedScene::7906818633513401544::1703234435::0::1::::<><>::res://scripts/main_menu.gd<>uid://efan8dc7womm::::res://Textures/Menu Background.png<>uid://cns14dwwoyrau::::res://fonts/PixelifySans-Regular.ttf
+::res://scenes/::1703236407
+hallway2.tscn::PackedScene::4384361257698177125::1703236407::0::1::::<><>::res://scripts/kamer.gd<>uid://d151qvlbmhh66::::res://tilesets/19_Hospital_Shadowless_48x48.png
+hallway.tscn::PackedScene::3914590650685529378::1703236405::0::1::::<><>::res://scripts/hallway.gd<>uid://b3p213qwjtt6t::::res://scenes/hallway2.tscn<>uid://c68aluyyxe6vh::::res://scenes/player_nurse.tscn
+kamer.tscn::PackedScene::1544155732493599388::1703236406::0::1::::<><>::res://scripts/kamer.gd<>uid://bh686kgshnf5n::::res://tilesets/19_Hospital_48x48.png<>uid://dlv05bp6g51it::::res://tilesets/Room_Builder_Floors_48x48.png<>uid://cbeoqdhracqnl::::res://tilesets/Room_Builder_3d_walls_48x48.png<>uid://pn5f8l2rlv5w::::res://tilesets/19_Hospital_Black_Shadow_48x48.png<>uid://c68aluyyxe6vh::::res://scenes/player_nurse.tscn
+main_menu.tscn::PackedScene::7906818633513401544::1703236407::0::1::::<><>::res://scripts/main_menu.gd<>uid://efan8dc7womm::::res://Textures/Menu Background.png<>uid://cns14dwwoyrau::::res://fonts/PixelifySans-Regular.ttf
 player_nurse.tscn::PackedScene::7016840718445821021::1703187137::0::1::::<><>::res://scripts/player_nurse.gd<>uid://bacqqqd563dvm::::res://tilesets/nick_and_ellis_sprites_by_ritsucracker_d2x7k8o-removebg-preview (1).png
-::res://scripts/::1703234424
+::res://scripts/::1703236072
 hallway.gd::GDScript::-1::1703187137::0::1::::<>Node<>::
 kamer.gd::GDScript::-1::1703187137::0::1::::<>Node<>::
 main_menu.gd::GDScript::-1::1703234424::0::1::::<>Control<>::
 player_nurse.gd::GDScript::-1::1703187137::0::1::::<>CharacterBody2D<>::
 SceneManager.gd::GDScript::-1::1703187137::0::1::::<>Node<>::
-::res://Textures/::1703233974
+::res://Textures/::1703236072
 Menu Background.png::CompressedTexture2D::291102216682674956::1703233044::1703233044::1::::<><>::
 Win95PlusBlack.png::CompressedTexture2D::6145192131238212310::1703233973::1703233974::1::::<><>::
 Win95TriBlack.png::CompressedTexture2D::3453768947995977981::1703233123::1703233123::1::::<><>::
-::res://themes/::1703187137
+::res://themes/::1703236072
 my_theme.tres::Theme::3690914676191565091::1703187137::0::1::::<><>::
-::res://tilesets/::1703187139
+::res://tilesets/::1703236073
 19_Hospital_48x48.png::CompressedTexture2D::2943797855237563573::1703187137::1703187137::1::::<><>::
 19_Hospital_Black_Shadow_48x48.png::CompressedTexture2D::1081501755639116398::1703187137::1703187138::1::::<><>::
 19_Hospital_Shadowless_48x48.png::CompressedTexture2D::9047711652849302193::1703187138::1703187138::1::::<><>::
@@ -56,7 +56,7 @@ Tileset_48x48_12.png::CompressedTexture2D::4719885222251288310::1703187138::1703
 Tileset_48x48_19.png::CompressedTexture2D::3535227205833938321::1703187138::1703187138::1::::<><>::
 UI_48x48.png::CompressedTexture2D::221897208491764472::1703187138::1703187139::1::::<><>::
 UI_thinking_emotes_animation_48x48.png::CompressedTexture2D::5408920839458097688::1703187139::1703187139::1::::<><>::
-::res://tilesets/Room_Builder_subfiles_48x48/::1703187139
+::res://tilesets/Room_Builder_subfiles_48x48/::1703236073
 Room_Builder_3d_walls_48x48.png::CompressedTexture2D::6442163747009772616::1703187139::1703187139::1::::<><>::
 Room_Builder_Arched_Entryways_48x48.png::CompressedTexture2D::1305197991750684352::1703187139::1703187139::1::::<><>::
 Room_Builder_baseboards_48x48.png::CompressedTexture2D::3727620451417938246::1703187139::1703187139::1::::<><>::
@@ -66,7 +66,7 @@ Room_Builder_Floor_Connectors_48x48.png::CompressedTexture2D::716827540900982860
 Room_Builder_Floor_Paths_48x48.png::CompressedTexture2D::3431668749588969345::1703187139::1703187139::1::::<><>::
 Room_Builder_Floor_Shadows_48x48.png::CompressedTexture2D::845755980420484131::1703187139::1703187139::1::::<><>::
 Room_Builder_Walls_48x48.png::CompressedTexture2D::616874505099031619::1703187139::1703187139::1::::<><>::
-::res://tilesets/spritesheets/::1703187157
+::res://tilesets/spritesheets/::1703236074
 animated_amplifier_48x48.png::CompressedTexture2D::9027046591959140622::1703187140::1703187140::1::::<><>::
 animated_amplifier_big_48x48.png::CompressedTexture2D::3188210732990791367::1703187140::1703187140::1::::<><>::
 animated_bathroom_cabinet_blue_empty_48x48.png::CompressedTexture2D::4782425974614139201::1703187140::1703187140::1::::<><>::

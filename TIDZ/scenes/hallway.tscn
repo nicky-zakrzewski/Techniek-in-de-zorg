@@ -1,8 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://bv1i0a6g2uuhu"]
+[gd_scene load_steps=7 format=3 uid="uid://bv1i0a6g2uuhu"]
 
 [ext_resource type="Script" path="res://scripts/hallway.gd" id="1_8885a"]
 [ext_resource type="PackedScene" uid="uid://b3p213qwjtt6t" path="res://scenes/hallway2.tscn" id="1_iw5q5"]
 [ext_resource type="PackedScene" uid="uid://c68aluyyxe6vh" path="res://scenes/player_nurse.tscn" id="2_3uh0m"]
+[ext_resource type="FontFile" uid="uid://cns14dwwoyrau" path="res://fonts/PixelifySans-Regular.ttf" id="4_a7g2t"]
+[ext_resource type="Script" path="res://scenes/TimerLabel.gd" id="4_c2yv7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_evj1r"]
 size = Vector2(49, 30)
@@ -20,5 +22,19 @@ shape = SubResource("RectangleShape2D_evj1r")
 
 [node name="PlayerNurse" parent="." instance=ExtResource("2_3uh0m")]
 position = Vector2(168, 153)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="TimerLabel" type="Label" parent="CanvasLayer"]
+offset_left = 978.0
+offset_top = 16.0
+offset_right = 1155.0
+offset_bottom = 100.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_a7g2t")
+theme_override_font_sizes/font_size = 48
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("4_c2yv7")
 
 [connection signal="body_entered" from="Door1" to="." method="_on_door_1_body_entered"]
