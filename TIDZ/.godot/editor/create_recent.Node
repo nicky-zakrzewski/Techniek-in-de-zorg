@@ -1,7 +1,9 @@
+TextureRect
+ColorRect
+Container
 Label
 CanvasLayer
 Button
-TextureRect
 Node2D
 Timer
 CollisionShape2D
