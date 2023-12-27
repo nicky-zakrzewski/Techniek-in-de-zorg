@@ -3,3 +3,6 @@ res://scenes/hallway.tscn
 res://scenes/kamer.tscn
 res://scenes/main_menu.tscn
 res://scenes/hallway2.tscn
+res://scripts/hallway.gd
+res://scenes/pause_menu.tscn
+res://scenes/pause_menu.gd
