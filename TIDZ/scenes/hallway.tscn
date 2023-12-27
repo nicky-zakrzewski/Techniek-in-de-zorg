@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://bv1i0a6g2uuhu"]
+[gd_scene load_steps=9 format=3 uid="uid://bv1i0a6g2uuhu"]
 
 [ext_resource type="Script" path="res://scripts/hallway.gd" id="1_8885a"]
 [ext_resource type="PackedScene" uid="uid://b3p213qwjtt6t" path="res://scenes/hallway2.tscn" id="1_iw5q5"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" path="res://scenes/TimerLabel.gd" id="4_c2yv7"]
 [ext_resource type="Texture2D" uid="uid://caxebt4mf5inh" path="res://Textures/Clock.png" id="4_kige3"]
 [ext_resource type="FontFile" uid="uid://umsld0wd6w62" path="res://fonts/PixeloidSans-mLxMm.ttf" id="4_tqepn"]
+[ext_resource type="PackedScene" uid="uid://c1hd0bmb78ktq" path="res://scenes/tasks/task_list_overlay.tscn" id="7_sdmo8"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_evj1r"]
 size = Vector2(49, 30)
@@ -48,5 +49,7 @@ theme_override_font_sizes/font_size = 48
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("4_c2yv7")
+
+[node name="TaskListOverlay" parent="HUD" instance=ExtResource("7_sdmo8")]
 
 [connection signal="body_entered" from="Door1" to="." method="_on_door_1_body_entered"]

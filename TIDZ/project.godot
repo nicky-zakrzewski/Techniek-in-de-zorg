@@ -19,6 +19,7 @@ config/icon="res://icon.png"
 
 SceneManager="*res://scripts/SceneManager.gd"
 Global="*res://scripts/Global.gd"
+TaskDatabase="*res://data/task_database.gd"
 
 [dotnet]
 

@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://td2irb1oypq0"
+
+[deps]
+
+files=["res://data/tasks.naam.translation", "res://data/tasks.prioriteit.translation", "res://data/tasks.tijdsduur.translation", "res://data/tasks.consequenties.translation", "res://data/tasks.omschrijving.translation", "res://data/tasks.kamer.translation", "res://data/tasks.uur.translation", "res://data/tasks.gedaan.translation"]
+
+source_file="res://data/tasks.csv"
+dest_files=["res://data/tasks.naam.translation", "res://data/tasks.prioriteit.translation", "res://data/tasks.tijdsduur.translation", "res://data/tasks.consequenties.translation", "res://data/tasks.omschrijving.translation", "res://data/tasks.kamer.translation", "res://data/tasks.uur.translation", "res://data/tasks.gedaan.translation"]
+
+[params]
+
+compress=true
+delimiter=0

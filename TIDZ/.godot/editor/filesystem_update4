@@ -1,5 +1,13 @@
 res://default_env.tres
+res://scenes/tasks/task_ticket.tscn
 res://scenes/hallway.tscn
 res://scenes/kamer.tscn
 res://scenes/main_menu.tscn
 res://scenes/hallway2.tscn
+res://scenes/tasks/drag_preview.tscn
+res://scenes/tasks/task_list.tscn
+res://scenes/tasks/task_list_overlay.tscn
+res://scripts/TaskTicket.gd
+res://scripts/main_menu.gd
+res://scripts/TaskList.gd
+res://scripts/TaskListOverlay.gd

@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://c1hd0bmb78ktq"]
+
+[ext_resource type="Script" path="res://scripts/TaskListOverlay.gd" id="1_43vo1"]
+
+[node name="TaskListOverlay" type="Node"]
+script = ExtResource("1_43vo1")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -37.0
+offset_top = -19.5
+offset_bottom = 19.5
+grow_horizontal = 0
+grow_vertical = 2
+size_flags_horizontal = 4
+
+[node name="SmallList" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2

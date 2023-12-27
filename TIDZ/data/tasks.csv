@@ -1,0 +1,13 @@
+random,naam,prioriteit,tijdsduur,consequenties,omschrijving,kamer,uur,gedaan
+0,Kamer opruimen,1,5,20,bed opmaken/verversen en opruimen,3,0,0
+0,Patiëntendossiers aanvullen,3,8,100,logboek bijhouden,3,0,0
+0,Medicatie uitdelen,5,5,90,medicatie geven,3,0,0
+0,Patiëntendossiers aanvullen,3,6,100,logboek bijhouden,2,0,1
+0,Medicatie uitdelen,5,5,90,medicatie geven,1,0,0
+0,Kamer opruimen,1,5,20,bed opmaken/verversen en opruimen,1,0,0
+0,Bloedname,2,10,70,altijd s'ochtends wanneer patiënt nuchter is,2,0,0
+0,Geplande ingreep,5,10,100,patiënt klaarmaken,1,11,0
+0,Medicatie uitdelen,5,5,90,medicatie geven,2,0,0
+0,Kamer opruimen,1,5,20,bed opmaken/verversen en opruimen,2,0,0
+0,Patiëntendossiers aanvullen,3,5,100,logboek bijhouden,1,0,1
+1,Pijn hebben, 3,5,60,medicatie geven en comfort checken,3,13,0

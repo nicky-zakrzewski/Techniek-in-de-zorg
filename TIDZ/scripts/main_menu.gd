@@ -19,7 +19,7 @@ func _process(delta):
 
 
 func _on_button_pressed():
-	SceneManager.switch_scene("res://scenes/hallway.tscn")
+	SceneManager.switch_scene("res://scenes/tasks/task_list.tscn")
 
 
 func _on_quit_pressed():
