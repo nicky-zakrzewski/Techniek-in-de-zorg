@@ -54,7 +54,7 @@ func import_task_file():
 			dict[name] = value
 		tasks.append(dict)
 	
-	print(tasks)
+	#print(tasks)
 
 func update_list_of_tasks(origin, target):
 	var element_i = tasks[origin-1]

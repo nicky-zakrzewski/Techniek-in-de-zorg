@@ -1,13 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://bv1i0a6g2uuhu"]
+[gd_scene load_steps=5 format=3 uid="uid://bv1i0a6g2uuhu"]
 
 [ext_resource type="Script" path="res://scripts/hallway.gd" id="1_8885a"]
 [ext_resource type="PackedScene" uid="uid://b3p213qwjtt6t" path="res://scenes/hallway2.tscn" id="1_iw5q5"]
 [ext_resource type="PackedScene" uid="uid://c68aluyyxe6vh" path="res://scenes/player_nurse.tscn" id="2_3uh0m"]
-[ext_resource type="Script" path="res://scenes/TimerLabel.gd" id="4_c2yv7"]
-[ext_resource type="Texture2D" uid="uid://caxebt4mf5inh" path="res://Textures/Clock.png" id="4_kige3"]
-[ext_resource type="FontFile" uid="uid://umsld0wd6w62" path="res://fonts/PixeloidSans-mLxMm.ttf" id="4_tqepn"]
-[ext_resource type="PackedScene" uid="uid://c1hd0bmb78ktq" path="res://scenes/tasks/task_list_overlay.tscn" id="7_sdmo8"]
-[ext_resource type="PackedScene" uid="uid://b8tgfy30wy4vm" path="res://scenes/pause_menu.tscn" id="7_t7fjl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_evj1r"]
 size = Vector2(49, 30)
@@ -25,40 +20,5 @@ shape = SubResource("RectangleShape2D_evj1r")
 
 [node name="PlayerNurse" parent="." instance=ExtResource("2_3uh0m")]
 position = Vector2(168, 153)
-
-[node name="HUD" type="CanvasLayer" parent="."]
-
-[node name="TextureRect" type="TextureRect" parent="HUD"]
-show_behind_parent = true
-visibility_layer = 2
-offset_left = 940.0
-offset_top = 1.0
-offset_right = 1151.0
-offset_bottom = 108.0
-texture = ExtResource("4_kige3")
-
-[node name="TimerLabel" type="Label" parent="HUD"]
-top_level = true
-offset_left = 962.0
-offset_top = 31.0
-offset_right = 1034.0
-offset_bottom = 90.0
-theme_override_colors/font_color = Color(0.780392, 0, 0.0823529, 1)
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("4_tqepn")
-theme_override_font_sizes/font_size = 48
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("4_c2yv7")
-
-[node name="TaskListOverlay" parent="HUD" instance=ExtResource("7_sdmo8")]
-
-[node name="PauseMenu" parent="." instance=ExtResource("7_t7fjl")]
-visible = false
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
 
 [connection signal="body_entered" from="Door1" to="." method="_on_door_1_body_entered"]

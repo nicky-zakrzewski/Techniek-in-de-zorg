@@ -1,6 +1,6 @@
 extends Node2D
 
-
+signal scene_changed(next_scene_path)
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	
@@ -48,6 +48,7 @@ func _process(delta):
 	pass
 	
 func _on_button_pressed():
-	SceneManager.switch_scene("res://scenes/hallway.tscn")
+	scene_changed.emit("res://scenes/hallway.tscn")
+	#SceneManager.switch_scene("res://scenes/hallway.tscn")
 	
 
