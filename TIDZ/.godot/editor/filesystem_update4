@@ -1,17 +1,2 @@
 res://default_env.tres
-res://TransitionScreen.gd
-res://scenes/transition_screen.tscn
-res://scenes/screen_manager.tscn
-res://scenes/screen_manager.gd
-res://scenes/hallway.tscn
-res://scenes/kamer.tscn
 res://scenes/scene_manager.tscn
-res://scripts/hallway.gd
-res://scenes/main_menu.tscn
-res://scripts/main_menu.gd
-res://scripts/scene_manager.gd
-res://data/task_database.gd
-res://scenes/tasks/task_list.tscn
-res://scripts/TaskList.gd
-res://scenes/hallway2.tscn
-res://scripts/kamer.gd
