@@ -7,6 +7,7 @@ var paused = false
 
 func _ready():
 	current_scene.scene_changed.connect(handle_scene_changed)
+	$PauseMenu.scene_changed.connect(handle_scene_changed)
 	
 func _process(delta):
 	if Input.is_action_just_pressed("pause"):

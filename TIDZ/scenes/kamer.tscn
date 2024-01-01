@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://waaawk753nmq"]
+[gd_scene load_steps=13 format=3 uid="uid://waaawk753nmq"]
 
 [ext_resource type="Script" path="res://scripts/kamer.gd" id="1_d02t3"]
 [ext_resource type="Texture2D" uid="uid://bh686kgshnf5n" path="res://tilesets/19_Hospital_48x48.png" id="1_hh3ij"]
@@ -6,9 +6,6 @@
 [ext_resource type="Texture2D" uid="uid://cbeoqdhracqnl" path="res://tilesets/Room_Builder_3d_walls_48x48.png" id="3_sa38q"]
 [ext_resource type="Texture2D" uid="uid://pn5f8l2rlv5w" path="res://tilesets/19_Hospital_Black_Shadow_48x48.png" id="4_fdm23"]
 [ext_resource type="PackedScene" uid="uid://c68aluyyxe6vh" path="res://scenes/player_nurse.tscn" id="5_bmx40"]
-[ext_resource type="FontFile" uid="uid://umsld0wd6w62" path="res://fonts/PixeloidSans-mLxMm.ttf" id="7_7may3"]
-[ext_resource type="Script" path="res://scenes/TimerLabel.gd" id="8_ieyit"]
-[ext_resource type="Texture2D" uid="uid://caxebt4mf5inh" path="res://Textures/Clock.png" id="9_xaas6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pjqbe"]
 texture = ExtResource("1_hh3ij")
@@ -47886,30 +47883,5 @@ position = Vector2(144, 344)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DoorToHallway"]
 position = Vector2(143, 414)
 shape = SubResource("RectangleShape2D_g0xf4")
-
-[node name="HUD" type="CanvasLayer" parent="."]
-
-[node name="TextureRect" type="TextureRect" parent="HUD"]
-show_behind_parent = true
-visibility_layer = 2
-offset_left = 940.0
-offset_top = 1.0
-offset_right = 1151.0
-offset_bottom = 108.0
-texture = ExtResource("9_xaas6")
-
-[node name="TimerLabel" type="Label" parent="HUD"]
-top_level = true
-offset_left = 962.0
-offset_top = 31.0
-offset_right = 1034.0
-offset_bottom = 90.0
-theme_override_colors/font_color = Color(0.780392, 0, 0.0823529, 1)
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("7_7may3")
-theme_override_font_sizes/font_size = 48
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("8_ieyit")
 
 [connection signal="body_entered" from="DoorToHallway" to="." method="_on_door_to_hallwat_body_entered"]

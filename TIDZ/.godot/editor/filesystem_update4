@@ -1,2 +1,6 @@
 res://default_env.tres
 res://scenes/scene_manager.tscn
+res://scripts/scene_manager.gd
+res://scenes/pause_menu.gd
+res://scenes/kamer.tscn
+res://scenes/hallway.tscn

@@ -1,6 +1,9 @@
 extends Control
 
 @onready var hallway = $".."
+@onready var SceneManager = $"/root/SceneManager"
+
+signal scene_changed(next_scene_path)
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -13,7 +16,7 @@ func _process(delta):
 
 
 func _on_resume_pressed():
-	hallway.pauseMenu()
+	SceneManager.pauseMenu()
 
 
 func _on_help_pressed():
@@ -21,5 +24,5 @@ func _on_help_pressed():
 
 
 func _on_main_menu_pressed():
-	hallway.pauseMenu()
-	SceneManager.switch_scene("res://scenes/main_menu.tscn")
+	scene_changed.emit("res://scenes/main_menu.tscn")
+	SceneManager.pauseMenu()
